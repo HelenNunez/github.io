@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Project</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!--Main Container and first row-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="box skyblue">Weather Factors</div>
+      </div>
+  <!--Dropdown Menu and Buttons for Navigation-->
+     <div class="row justify-content-end"></div>
+        <div class="col-6"></div>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Plots
+        </button>
+        <div class="dropdown-menu" aria-labelledby="Plots">
+                <a class="dropdown-item" href="Temp.html">Max Temperature</a>
+                <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="Wind.html">Wind Speed</a>
+        </div>
+
+        <a href="Comparisons.html">
+        <button type="button" class="btn btn-light">Comparisons</button>
+        </a>
+        <a href="Table_web.html">
+        <button type="button" class="btn btn-light">Data</button>
+        </a>    
+      </div>    
+</div>
+<br><br>
+    <!--Description-->
+    <div class="row">
+      <div class="col-md-6">
+        <div class="box skyblue">Summary</div>
+        <br>
+        <p>This project analyses several weather factors across latitudes in the world. </p>
+        <p>In this website you will find data about a collection of random
+          cities in and their respective latitude coordinates and weather at the moment in time. We have explored the world's weather data to find the perfect conditions
+            in temperature, humidity, cloudiness, and wind speed. Explore the website for more infomation!
+        </p>
+      </p>
+      <p>To navigate effectively, click on any of the Visualizations on the right menu</p>
+      <p>Also utilize the top right menu to see the snapshot of Comparisons.</p>
+      <p>And if you feel curious enough, go to the Data buttom at the top of the page and you will be able to access the World Cities dataset
+        utilized in this web.
+      </p>
+        <br>
+      </div>  
+      
+       <!--Visualizations Box with links-->
+
+        <div class="col-md-6">            
+        <div class="box skyblue">Visualizations</div>
+          <br>
+          <div class="row justify-content-center">
+          <div class="card"> 
+          <div class="image-grid-container"> 
+            <a href="Temp.html">
+            <img src="Temperature_across_latitudes_Worldwide.png" alt= Temperature>
+            </a>
+            <a href="Humidity.html">
+         <img src="Humidity_Worldwide.png" alt= Humidity>
+            </a>
+            <a href="Cloudiness.html">
+            <img src="Cloudiness_Worldwide.png" alt= Cloudiness>
+            </a>
+            <a href="Wind.html">
+            <img src="Wind_Speed_Worldwide.png" alt= WindSpeed>
+            </a>
+        </div>
+        </div>
+        </div>
+      </div>
+  </div>
+
+      
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

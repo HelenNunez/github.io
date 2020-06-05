@@ -1,0 +1,51 @@
+.box {
+  min-height: 50px;
+  padding: 5px;
+  margin: 5px;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+}
+
+.box1 {
+  min-height: 50px;
+  padding: 5px;
+  margin: 5px;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+}
+.skyblue {
+  background: deepskyblue;
+}
+
+.blue {
+  background:lightseagreen;
+}
+
+.gray {
+  background:lightslategray;
+}
+
+p {
+  font-family: verdana;
+  font-size: 17px;
+}
+
+
+.card { 
+  width: 50rem; 
+  margin: 2rem; 
+} 
+
+.image-grid-container { 
+  display: grid; 
+
+  /* For 2 columns */ 
+  grid-template-columns: auto auto; 
+} 
+img { 
+  width: 100%; 
+} 

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Project</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <!--Normally these medium columns go full wide on small screen sizes-->
+    <div class="row">
+      <div class="col-md-3">
+        <a href="index.html">
+          <div class="box skyblue">Weather Factors</div>
+          </a>
+      </div>
+
+      <!--Navbar?-->
+     <div class="row justify-content-end"></div>
+        <div class="col-6"></div>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Plots
+        </button>
+        <div class="dropdown-menu" aria-labelledby="Plots">
+              <!--Add a link for each to a new page    <a href="page2. html"> -->
+                <a class="dropdown-item" href="Temp.html">Max Temperature</a>
+                <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="Wind.html">Wind Speed</a>
+        </div>
+
+        <a href="Comparisons.html">
+        <button type="button" class="btn btn-light">Comparisons</button>
+        </a>
+        <a href="Table_web.html">
+        <button type="button" class="btn btn-light">Data</button>
+        </a>    
+      </div>    
+</div>
+
+<class="row"
+class="col-md-12">            
+  <div class="box blue">Humidity</div>
+  <br>
+  <p> In this scatter diagram, it is interesting to see how the humidity close to the equator is always high for the cities under study.
+    (Hint: to know which cities were analyzed, please go to the "Data" link at the top of the page)
+  It is also interesting to notice that most of the samples in this data set are above the 60% humidity, so if your perfect vacation spot
+is low humidity, the choices are clearly more limited. On the other hand, if you dont mind high percentage of humidty, perhaps you will find
+more vacation spots available.  </p>
+  <br>
+  <div class="row justify-content-center">
+      <img src="Humidity_Worldwide.png" alt= Humidity>
+  </div>
+  </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

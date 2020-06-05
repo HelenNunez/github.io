@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Temperature Project</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <!--Normally these medium columns go full wide on small screen sizes-->
+    <div class="row">
+      <div class="col-md-3">
+        <a href="index.html">
+        <div class="box skyblue">Weather Factors</div>
+        </a>
+      </div>
+
+      <!--Navbar?-->
+     <div class="row justify-content-end"></div>
+        <div class="col-6"></div>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Plots
+        </button>
+        <div class="dropdown-menu" aria-labelledby="Plots">
+              <!--Add a link for each to a new page    <a href="page2. html"> -->
+                <a class="dropdown-item" href="Temp.html">Max Temperature</a>
+                <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="Wind.html">Wind Speed</a>
+        </div>
+
+        <a href="Comparisons.html">
+        <button type="button" class="btn btn-light">Comparisons</button>
+        </a>
+        <a href="Table_web.html">
+        <button type="button" class="btn btn-light">Data</button>
+        </a>    
+      </div>    
+</div>
+    <class="row"
+    class="col-md-12">            
+      <div class="box blue">Maximum Temperature</div>
+        <br>
+      <p> This scatter diagram shows how the temperature raises as the latitude gets closer to latitude zero. As expected
+        the temperatures are higher around the equator. 
+     </p>
+     <p> Temperatures around the equator get close to the 90 degrees Farhenheit and interestingly, between the latitudes of 60 and 80
+       the temperatures drop drammatically.
+       Ideal conditions may be between 60 and 80 degrees, and there is a broad range of latitudes around the globe that have those temperatures.
+   </p>
+        <br>
+      <div class="row justify-content-center">
+      <img src="Temperature_across_latitudes_Worldwide.png" alt= Temperature>
+
+      </div>
+    </div>
+      
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
